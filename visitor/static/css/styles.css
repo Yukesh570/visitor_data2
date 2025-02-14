@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7e4e4;
+    
+    margin: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.container {
+    background-color: #e7e7e7;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px 20px rgba(80, 80, 80, 0.2);
+    width: 170%;
+    max-width: 925px;
+    box-sizing: border-box;
+    height: 750px;
+    overflow: auto; /* Add this if you want to handle overflow content */
+    display: flex; /* Use flexbox to align items */
+    justify-content: center; /* Center children vertically */
+    
+    /* Add an outer line */
+    border: 1px solid #000000; /* Adjust the thickness and color as needed */
+}
+
+h1 {
+    text-align: right;
+    color: #000000;
+    margin-right: 350px; /* Adjust this value to move it left */
+
+    font-size: 24px; /* Adjust the font size to make it smaller */
+    width: 100%;
+}
+
+.form-container {
+    flex: 1; /* Take up available space */
+    margin-right: 20px; /* Add space between form and video feed */
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #000000;
+    font-size: 20px; /* Adjust the font size to make it smaller */
+
+}
+
+.form-container input, .form-container textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+    margin-right: 100px;
+
+    margin-top: 20px;
+    width: 160%; /* Ensure it takes the full width of its parent */
+
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px; /* Make buttons curved */
+    background-color: #007bff;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.video-container {
+    flex: 1; /* Take up available space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.video-container2 {
+    flex: 1; /* Take up available space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 20%; /* Adjust the max-width as needed */
+    max-height: 20%; /* Adjust the max-height as needed */
+}
+
+/* Optionally, adjust the image size directly */
+.video-container2 img {
+    width: 100%; /* Scale the image to fit the container */
+    height: auto; /* Maintain aspec=t ratio */
+    max-width: 40px; /* Limit the maximum width */
+    max-height: 30px; /* Limit the maximum height */
+}
+
+.video-container img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4); /* Black with opacity */
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 8px;
+    width: 90%; /* Adjust width as needed */
+    max-width: 600px; /* Maximum width of the modal */
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding is included in width */
+    position: relative;
+}
+.modal-content2
+ {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 8px;
+    width: 80%;
+    box-sizing: border-box; /* Ensure padding is included in width */
+    position: relative;
+    text-align: center;
+
+    max-width: 400px;
+}
+
+.modal-header, .modal-footer {
+    padding: 10px;
+    /* border-bottom: 1px solid #eee; */
+}
+
+.modal-footer {
+    border-top: 1px solid #eee;
+}
+
+.modal-body {
+    padding: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-body img {
+    max-width: 100%; /* Ensure image does not overflow the modal */
+    height: auto;    /* Maintain aspect ratio */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding is included */
+}
+
+h1 {
+    font-size: 36px; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+    color: #000000; /* Add a color for better contrast */
+    margin-left: 30px; /* Adjust this value to move it to the right */
+
+    text-transform: uppercase; /* Make the text uppercase */
+
+
+
+}
+
+
+
+
+
+
+
