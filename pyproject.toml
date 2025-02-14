@@ -61,7 +61,8 @@ dependencies = [
     "werkzeug (==3.0.3)",
     "wheel (==0.44.0)",
     "wrapt (==1.16.0)",
-    "python-dotenv (>=1.0.1,<2.0.0)"
+    "python-dotenv (>=1.0.1,<2.0.0)",
+    "whitenoise (>=6.9.0,<7.0.0)"
 ]
 
 
